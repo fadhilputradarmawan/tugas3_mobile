@@ -33,13 +33,15 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      routes: {
+         routes: {
         '/': (context) => Page1(),
         '/page2': (context) => Page2(),
       },
     );
   }
-}
+    
+  }
+
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
